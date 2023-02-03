@@ -49,12 +49,14 @@ def euler_from_quaternion(quaternion):
 class SubPub(Node):
 
     def __init__(self):
-        super().__init__('pub_sub_node')
-        ### CREATE A SUBSCRIBER OBJECT
-
+        super().__init__('pub_sub_node_NA18B103')
+        
         # publisher that publishes orientation in terms of euler angles
         ## CREATE A PUBLISHER OBJECT
-
+        self.publisher_=
+        
+        ### CREATE A SUBSCRIBER OBJECT
+        self.subscriber = 
 
     def listener_callback(self, msg):
         ###  below write a code that:
